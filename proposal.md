@@ -1,7 +1,7 @@
 # Proposal
 
 When a user says: countdown
-My bot will respond by: asking the user what they want to count down from, and count down from that, ending at blastoff!
+My bot will respond by: asking the user what they want to count down from, and count down from that, ending at Blastoff!
 
 When a user says: there's a bee in the sea
 My bot will respond by: adee adee, holy macaroni
