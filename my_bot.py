@@ -104,6 +104,3 @@ def respond(user_message, user_name):
   
   else:
     return False
-
-
-# Proposal
