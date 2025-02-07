@@ -4,10 +4,10 @@ Do NOT modify this file
 
 Instead, modify the functions in `my_bot.py`
 """
-
 import os
 import discord
 import my_bot
+import random
 from secret import *
 
 client = discord.Client(intents=discord.Intents.all())
@@ -19,7 +19,7 @@ async def on_ready():
 
 @client.event
 async def on_message(message):
-  if message.channel.name == "drebees-bot":
+  if message.channel.name == "miriam_bot":
     if message.author != client.user:
       user_name = message.author.display_name
       if my_bot.should_i_respond(message.content, user_name):
