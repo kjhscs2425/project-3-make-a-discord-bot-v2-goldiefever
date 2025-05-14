@@ -61,7 +61,7 @@ def respond(user_message, user_name):
     countdown_number = int(user_message)
     output_message = ""
     for i in range (countdown_number):
-      output_message += f"{countdown_number-i}"
+      output_message += f"{countdown_number-i} "
     output_message += " blastoff!"
     state = "start"
     return output_message
